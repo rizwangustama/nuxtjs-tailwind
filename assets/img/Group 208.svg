@@ -1,0 +1,53 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="1366" height="681" viewBox="0 0 1366 681">
+  <defs>
+    <style>
+      .cls-1 {
+        fill: #fff;
+        stroke: #707070;
+      }
+
+      .cls-2 {
+        clip-path: url(#clip-path);
+      }
+
+      .cls-3 {
+        fill: #fead7d;
+      }
+
+      .cls-4 {
+        clip-path: url(#clip-path-2);
+      }
+
+      .cls-5 {
+        clip-path: url(#clip-path-3);
+      }
+
+      .cls-6 {
+        fill: url(#linear-gradient);
+      }
+    </style>
+    <clipPath id="clip-path">
+      <rect id="Rectangle_35" data-name="Rectangle 35" class="cls-1" width="683" height="663" transform="translate(683 104)"/>
+    </clipPath>
+    <clipPath id="clip-path-2">
+      <rect id="Rectangle_42" data-name="Rectangle 42" class="cls-1" width="479" height="346" transform="translate(0 86)"/>
+    </clipPath>
+    <clipPath id="clip-path-3">
+      <rect id="Rectangle_39" data-name="Rectangle 39" class="cls-1" width="479" height="391"/>
+    </clipPath>
+    <linearGradient id="linear-gradient" x1="0.918" y1="0.633" x2="-0.124" y2="0.79" gradientUnits="objectBoundingBox">
+      <stop offset="0" stop-color="#fe8137"/>
+      <stop offset="1" stop-color="#fff8f3"/>
+    </linearGradient>
+  </defs>
+  <g id="Group_208" data-name="Group 208" transform="translate(0 -86)">
+    <g id="Mask_Group_12" data-name="Mask Group 12" class="cls-2">
+      <path id="Path_137" data-name="Path 137" class="cls-3" d="M550.642,119.726q-3.336,0-6.655.066c-55.129,1.1-108.255-20.931-151.108-59.069-38-33.818-86.492-53.953-139.276-53.574C133.156,8.014,33.888,119.794,35.882,252.177a259.535,259.535,0,0,0,21.277,99.677c22.422,51.575,17.587,112.932-13.569,158.7A249.209,249.209,0,0,0,12.621,574.14C-27.714,698.72,31.87,837.2,145.117,881.8c115.324,45.423,241.793-21.72,281.382-148.688a262.56,262.56,0,0,0,7.137-28.357c11.636-60.237,59.441-103.362,115.463-103.1q.773,0,1.545,0c155.3,0,281.2-107.884,281.2-240.965s-125.9-240.966-281.2-240.966Z" transform="translate(683 96.419)"/>
+    </g>
+    <g id="Mask_Group_17" data-name="Mask Group 17" class="cls-4">
+      <g id="Mask_Group_15" data-name="Mask Group 15" class="cls-5">
+        <path id="Path_213" data-name="Path 213" class="cls-6" d="M424.828,76.172q-2.574,0-5.134.041A197.468,197.468,0,0,1,303.112,40C273.794,19.26,236.381,6.915,195.658,7.147c-92.927.53-169.513,69.067-167.975,150.235A132,132,0,0,0,44.1,218.5c17.3,31.623,13.569,69.243-10.469,97.3A142.608,142.608,0,0,0,9.737,354.79C-21.382,431.174,24.588,516.08,111.96,543.429c88.975,27.85,186.547-13.317,217.09-91.166a134.707,134.707,0,0,0,5.507-17.387c8.977-36.934,45.86-63.375,89.081-63.217l1.192,0c119.82,0,216.952-66.147,216.952-147.744S544.647,76.172,424.828,76.172Z" transform="translate(-162.782 -161.644)"/>
+      </g>
+    </g>
+  </g>
+</svg>
