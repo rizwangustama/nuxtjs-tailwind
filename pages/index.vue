@@ -1,20 +1,68 @@
 <template>
-  <section class="img-bg" style="height: 681px;">
-    <div class="containerku flex justify-between" style="height: 681px">
-      <div class="wrapp flex items-center">
-        <div class="content">
-          <h1 class="text-5xl font-bold pb-2" style="color: #514035;">Rizwan Gustama</h1>
-          <h2 class="text-3xl font-medium pb-2" style="color: #7B685F;">Front End Developer</h2>
-          <h3 class="text-2xl font-medium" style="color: #7B685F;">UI/UX Design</h3>
+  <section>
+    <section class="img-bg" style="height: 681px;">
+      <div class="containerku flex justify-between" style="height: 681px">
+        <div class="wrapp flex items-center">
+          <div class="content">
+            <h1 class="text-5xl font-bold pb-2" style="color: #514035;">Rizwan Gustama</h1>
+            <h2 class="text-3xl font-medium pb-2" style="color: #7B685F;">Front End Developer</h2>
+            <h3 class="text-2xl font-medium" style="color: #7B685F;">UI/UX Design</h3>
+            
+            <p class="pt-3 font-light" style="color: #7B716B;">
+              We appreciate your business and guarantee a <br>
+              response within 24 Business hour
+            </p>
+            
+            <button class="px-20 py-2 mt-10 rounded-full text-white">Portofolio</button>
+          </div>
+        </div>
 
-          <button class="px-20 py-2 mt-10 rounded-full text-white">Portofolio</button>
+        <div class="gambar pt-20">
+          <img src="~/assets/img/Mask Group 1.svg" style="height: 600px" alt="">
         </div>
       </div>
+    </section>
 
-      <div class="gambar pt-20">
-        <img src="~/assets/img/Mask Group 1.svg" style="height: 600px" alt="">
+    <section id="about" class="bg-gray-100">
+      <div class="containerku">
+        <div class="grid">
+          <div>
+            <h1 class="text-4xl font-bold mb-2" style="color: #392D25">About Me</h1>
+            <h2 class="text-3xl font-medium mb-2 leading-9" style="color: #7B685F">Front end Developer</h2>
+            <p class="text-1x font-light mb-10 leading-7" style="color: #7B716B">Trees Studio is a Front End Developer and UI/UX Design <br> Development Team based in Sukabumi, Indonesia.</p>
+            <nuxt-link to="" class="px-20 py-2 rounded-full text-white" style="background: linear-gradient(90deg, rgba(255,39,5,1) 35%, rgba(254,141,62,1) 100%);">Read More</nuxt-link>
+          </div>
+
+          <div class="flex justify-center items-center" style="background: linear-gradient(0deg, rgba(255,105,105,1) 35%, rgba(196,56,136,1) 100%);">
+            <div class="colom1 h-full w-full">
+              <div class="text-center flex items-center justify-center h-full">
+                <div>
+                  <h1 class="text-6xl font-bold text-white">14</h1>
+                  <h4 class="text-white">Client</h4>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="bg-blue-100 flex justify-center items-center" style="background: linear-gradient(0deg, rgba(179,127,203,1) 35%, rgba(196,72,142,1) 100%);">
+            <div class="colom2 h-full w-full">
+              <div class="text-center flex items-center justify-center h-full">
+                <div>
+                  <h1 class="text-6xl font-bold text-white">120</h1>
+                  <h4 class="text-white">Website Create</h4>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div class="grid-logo">
+          <div>1</div>
+          <div>2</div>
+          <div>1</div>
+          <div>2</div>
+        </div>
       </div>
-    </div>
+    </section>
   </section>
 </template>
 
@@ -29,34 +77,22 @@ export default {
 </script>
 
 <style>
-.container {
-  min-height: 100vh;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  text-align: center;
+.colom1 {
+  background-image: url('~/assets/img/bg-colums.svg');
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.colom2 {
+  background-image: url('~/assets/img/Group 209.svg');
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.p {
+  font-family: "Montserrat", "Source Sans Pro", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif; /* 1 */
 }
 
-.title {
-  font-family: "Quicksand", "Source Sans Pro", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif; /* 1 */
-  display: block;
-  font-weight: 300;
-  font-size: 100px;
-  color: #35495e;
-  letter-spacing: 1px;
-}
-
-.subtitle {
-  font-weight: 300;
-  font-size: 42px;
-  color: #526488;
-  word-spacing: 5px;
-  padding-bottom: 15px;
-}
-
-.links {
-  padding-top: 15px;
-}
 .img-bg {
   background-image: url('~/assets/img/Group 208.svg');
   background-repeat: no-repeat;
@@ -64,7 +100,18 @@ export default {
   background-position: center;
 }
 button{
-  background: linear-gradient(90deg, rgba(254,141,62,1) 35%, rgba(234,90,67,1) 100%);
+  background: linear-gradient(90deg, rgba(255,39,5,1) 35%, rgba(254,141,62,1) 100%);
+}
+.grid-logo {
+  background: white;
+  column-gap: 20px;
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
+}
+
+.grid {
+  grid-template-columns: 2fr 1fr 1fr ;
+  column-gap: 20px;
 }
 </style>
 
