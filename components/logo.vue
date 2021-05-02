@@ -12,8 +12,8 @@
         </div>
         <div class="logo">
             <img src="~/assets/img/Drible.svg" alt="">
-            <p class="text-center text-sm mt-1"><b class="text-yellow-400">130+</b>
-             Project</p>
+            <p class="text-center text-sm mt-1"><b class="text-yellow-400">30+</b>
+             Product</p>
         </div>
         <div class="logo">
             <img src="~/assets/img/Freelancer_logo.svg" alt="">
