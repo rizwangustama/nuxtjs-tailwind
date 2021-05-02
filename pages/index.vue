@@ -24,7 +24,7 @@
     </section>
 
     <section id="about" class="bg-gray-100">
-      <div class="containerku">
+      <div class="containerku py-32">
         <div class="grid">
           <div>
             <h1 class="text-4xl font-bold mb-2" style="color: #392D25">About Me</h1>
@@ -55,12 +55,8 @@
           </div>
         </div>
 
-        <div class="grid-logo">
-          <div>1</div>
-          <div>2</div>
-          <div>1</div>
-          <div>2</div>
-        </div>
+        <logo class="my-20"/>
+
       </div>
     </section>
   </section>
@@ -68,13 +64,16 @@
 
 <script>
 import AppLogo from '~/components/AppLogo.vue'
+import logo from '~/components/logo.vue'
 
 export default {
   components: {
-    AppLogo
+    AppLogo,
+    logo
   }
 }
 </script>
+
 
 <style>
 .colom1 {
@@ -103,11 +102,15 @@ button{
   background: linear-gradient(90deg, rgba(255,39,5,1) 35%, rgba(254,141,62,1) 100%);
 }
 .grid-logo {
-  background: white;
   column-gap: 20px;
   display: grid;
   grid-template-columns: 1fr 1fr 1fr 1fr;
 }
+
+.logo {
+  background-color: white;
+}
+
 
 .grid {
   grid-template-columns: 2fr 1fr 1fr ;

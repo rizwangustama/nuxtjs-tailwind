@@ -4,7 +4,7 @@
             <div class="containerku">
                 <nav class="flex justify-between h-12">
                     <div class="left">
-                        <img class="h-full" src="~/assets/img/Logo Tress Studio Baru.svg" alt="">
+                        <img class="h-full" src="~/assets/img/Logo Tress Studio Baru.svg" alt="" width="80px">
                     </div>
                     <div class="right">
                         <ul class="flex h-full">
