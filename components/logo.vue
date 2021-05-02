@@ -17,7 +17,7 @@
         </div>
         <div class="logo">
             <img src="~/assets/img/Freelancer_logo.svg" alt="">
-            <p class="text-center text-sm mt-1"><b class="text-yellow-400">130+</b>
+            <p class="text-center text-sm mt-1"><b class="text-yellow-400">120+</b>
              Project</p>
         </div>
     </div>
