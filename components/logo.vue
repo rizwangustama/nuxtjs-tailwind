@@ -26,6 +26,10 @@
 <style>
     .logo {
        padding: 40px 0px;
+       transition: all ease 0.5s;
+    }
+    .logo:hover {
+        box-shadow: 0 25px 50px -12px rgba(0, 0, 0, 0.25);
     }
     img {
         display: flex;

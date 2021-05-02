@@ -81,12 +81,20 @@ export default {
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
+  transition: all ease 0.5s;
 }
 .colom2 {
   background-image: url('~/assets/img/Group 209.svg');
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
+  transition: all ease 0.5s;
+}
+.colom1:hover {
+  box-shadow: 0 25px 50px -12px rgba(0, 0, 0, 0.25);
+}
+.colom2:hover {
+  box-shadow: 0 25px 50px -12px rgba(0, 0, 0, 0.25);
 }
 .p {
   font-family: "Montserrat", "Source Sans Pro", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif; /* 1 */
