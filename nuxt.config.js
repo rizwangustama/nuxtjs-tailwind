@@ -3,11 +3,11 @@ module.exports = {
   ** Headers of the page
   */
   head: {
-    title: 'nuxtjs-tailwind',
+    title: 'Portofolio',
     meta: [
       { charset: 'utf-8' },
       { name: 'viewport', content: 'width=device-width, initial-scale=1' },
-      { hid: 'description', name: 'description', content: 'Belajar Nuxtjs dan Tailwind' }
+      { hid: 'description', name: 'description', content: 'Belajar Nuxtjs dan Tailwind' },
     ],
     link: [
       { rel: 'icon', type: 'image/x-icon', href: '/favicon.ico' },

@@ -1,5 +1,5 @@
 <template>
-    <section>
+    <section id="navbar">
         <div class="fixed bg-white shadow md:shadow-lg" style="width:100%;">
             <div class="containerku">
                 <nav class="flex justify-between h-12">
@@ -21,9 +21,7 @@
 </template>
 
 <script>
-export default {
 
-}
 </script>
 
 <style>
@@ -35,6 +33,7 @@ export default {
      border-bottom: 2px solid transparent;
  }
  li:hover {
+     transition: all ease-in-out 0.7s;
      border-bottom: 2px solid #FE8D3E;
   }
   a {
