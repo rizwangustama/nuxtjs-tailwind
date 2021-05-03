@@ -154,13 +154,18 @@
     </section>
 
     <section>
-      <div class="ccontainerku ">
+      <div class="containerku ">
         <h1 class="text-center">I have my Best skills, </h1>
-      </div>
-      <div class="grid grid-flow-col grid-cols-3 gap-10">
-        <div class="col">1</div>
-        <div class="col">2</div>
-        <div class="col">3</div>
+        <div class="grid grid-flow-col-dense grid-cols-4 grid-rows-2 gap-10">
+          <div class="col">1</div>
+          <div class="col">2</div>
+          <div class="col">3</div>
+          <div class="col">1</div>
+          <div class="col">2</div>
+          <div class="col">3</div>
+          <div class="col">2</div>
+          <div class="col">3</div>
+        </div>
       </div>
     </section>
 
