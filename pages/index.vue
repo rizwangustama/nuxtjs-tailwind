@@ -104,7 +104,7 @@
             <div class="cl bg-gray-300">
               <div class="wrapper p-10">
                 <div class="head">
-                  <img src="~/assets/img/dev.svg" alt="" />
+                  <img src="~/assets/img/dev.svg" width="200px" alt="" />
                 </div>
                 <div class="text-center mt-8">
                   <h1 class="mb-3 text-lg font-medium" style="color: #4E4E4E;">
@@ -120,7 +120,7 @@
             <div class="cl bg-gray-300">
               <div class="wrapper p-10">
                 <div class="head">
-                  <img src="~/assets/img/dev2.svg" alt="" />
+                  <img src="~/assets/img/dev2.svg" width="200px" alt="" />
                 </div>
                 <div class="text-center mt-8">
                   <h1 class="mb-3 text-lg font-medium" style="color: #4E4E4E;">
@@ -136,7 +136,7 @@
             <div class="cl bg-gray-300">
               <div class="wrapper p-10">
                 <div class="head">
-                  <img src="~/assets/img/dev3.svg" alt="" />
+                  <img src="~/assets/img/dev3.svg" width="200px" alt="" />
                 </div>
                 <div class="text-center mt-8">
                   <h1 class="mb-3 text-lg font-medium" style="color: #4E4E4E;">
@@ -152,10 +152,18 @@
         </div>
       </div>
     </section>
-    
-    <section>
 
+    <section>
+      <div class="ccontainerku ">
+        <h1 class="text-center">I have my Best skills, </h1>
+      </div>
+      <div class="grid grid-flow-col grid-cols-3 gap-10">
+        <div class="col">1</div>
+        <div class="col">2</div>
+        <div class="col">3</div>
+      </div>
     </section>
+
   </section>
 </template>
 
