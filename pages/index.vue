@@ -93,6 +93,7 @@
         <logo class="my-20" />
       </div>
     </section>
+
     <section class="what bg-white">
       <div class="containerku py-32">
         <div class="head-content">
@@ -150,6 +151,10 @@
           </div>
         </div>
       </div>
+    </section>
+    
+    <section>
+
     </section>
   </section>
 </template>
