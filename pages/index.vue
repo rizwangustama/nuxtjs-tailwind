@@ -153,21 +153,39 @@
       </div>
     </section>
 
-    <section>
+    <section style="background-color: #F1F1F1;">
       <div class="containerku ">
         <h1 class="text-center">I have my Best skills, </h1>
-        <div class="grid grid-flow-col-dense grid-cols-4 grid-rows-2 gap-10">
-          <div class="col">1</div>
-          <div class="col">2</div>
-          <div class="col">3</div>
-          <div class="col">1</div>
-          <div class="col">2</div>
-          <div class="col">3</div>
-          <div class="col">2</div>
-          <div class="col">3</div>
+        <div class="grid grid-flow-row-dense grid-cols-4 grid-rows-2 gap-10">
+          <div class="col bg-white flex items-center p-5 ">
+            <img src="~/assets/img/html.png" width="75px" alt="">
+          </div>
+          <div class="col bg-white flex items-center p-5">
+            <img src="~/assets/img/css.png" width="75px" alt="">
+          </div>
+          <div class="col bg-white flex items-center p-5">
+            <img src="~/assets/img/php.png" width="127px" alt="">
+          </div>
+          <div class="col bg-white flex items-center p-5">
+            <img src="~/assets/img/react.png" width="95px" alt="">
+          </div>
+          <div class="col bg-white flex items-center p-5">
+            <img src="~/assets/img/Nuxjs.png"  alt="">
+          </div>
+          <div class="col bg-white flex items-center p-5">
+            <img src="~/assets/img/vuejs.png" width="75px"  alt="">
+          </div>
+          <div class="col bg-white flex items-center p-5">
+            <img src="~/assets/img/tailwind.svg" alt="">
+          </div>
+          <div class="col bg-white flex items-center p-5">
+            <img src="~/assets/img/github.png" width="75px" alt="">
+          </div>
         </div>
       </div>
     </section>
+
+    
 
   </section>
 </template>
